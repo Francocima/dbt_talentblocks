@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: freelancers
+    description: "Source data for freelancers"
+    database: postgres
+    schema: public
+
+    tables:
+      - name: freelancer_personal_details
+        description: "Source table containing freelancer data"
+        
