@@ -9,4 +9,8 @@ sources:
     tables:
       - name: freelancer_personal_details
         description: "Source table containing freelancer data"
-        
+        tests:
+          - unique:
+              column_name: id
+          - not_null:
+              column_name: id
